@@ -1,17 +1,24 @@
 import Image from 'next/image';
 
-type propsCard = {
+type item = {
   image: string;
   name: string;
-  price: number;
+  priceMember: number;
+  priceNonMember: number
 }
 
-export default function Card ({image, name, price }: propsCard) {
+export default function Card ({
+    image, 
+    name, 
+    priceMember,
+    priceNonMember 
+  }: item) {
   return (
     <div>
     <Image src={image} />
-    <h3>{name}</h3>
-    <span>{price}</span>
+    <samp>{name}</samp>
+    <span>{priceMember}</span>
+    <span>{priceNonMember}</span>
     </div>
   );
 }
