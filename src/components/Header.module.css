@@ -1,0 +1,42 @@
+.myHeader {
+  background: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+}
+
+.myHeader ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.myHeader li {
+  text-decoration: none;
+  color: #555555;
+  font-family: 'Neo Sans Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 15px;
+}
+
+.myHeader li:hover {
+  border-bottom:solid 1px #D14B8F;
+  color: #D14B8F;
+}
+
+.myHeader nav {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icons {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
