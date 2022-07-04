@@ -1,0 +1,11 @@
+/* <div>
+      <input 
+        type="text"  
+        className={style.search}
+        value={valueInput}
+        onChange={({currentTarget}) => setValueInput(currentTarget.value)} 
+      />
+      <button
+      onClick={setItemName}
+      >buscar</button>
+</div> */

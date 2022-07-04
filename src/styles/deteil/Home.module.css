@@ -1,0 +1,67 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+}
+
+.subIcon {
+  display: flex;
+}
+
+.subIcon span {
+  font-weight: 400;
+  font-size: 14px;
+  color: #555555;
+}
+
+.preceMembre {
+  font-weight: 900;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  color: #C81A78;
+}
+
+.preceMembre h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.preceMembre h2 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.price {
+  padding: 0px;
+  margin: 0px;
+}
+
+.price h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-feature-settings: 'liga' off;
+  color: #888888;
+}
+
+.commit span {
+  font-weight: 900;
+  font-size: 16px;
+  align-items: center;
+  color: #111111;
+}
+
+.commit p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #666666;
+}

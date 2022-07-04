@@ -1,0 +1,17 @@
+.filter {
+  width: 200px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background: #DEDEDE;
+}
+
+.filter label {
+  margin-left: 40px;
+}
+
+.filter span {
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 50px;
+}

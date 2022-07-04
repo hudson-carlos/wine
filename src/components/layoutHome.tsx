@@ -1,10 +1,18 @@
-import Header from "./header"
+import { ReactNode } from 'react';
+import { Provider } from '../context/userContext';
+import Header from './header';
 
-export default function Layout({children}) {
+type typeProps = {
+  children: ReactNode | JSX.Element | JSX.Element[];
+}
+
+export default function Layout({children }: typeProps) {
   return (
-    <>
-      <Header />
-      {children}
-    </>
+    <Provider>
+      <>
+        <Header />
+        {children}
+      </>
+    </Provider>
   );
 }
